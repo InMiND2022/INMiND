@@ -101,7 +101,7 @@ export default {
     <v-main class="container-fluid">
       <div class="section section-1">
         <video ref="videoPlayer" :width="videoWidth" autoplay loop muted>
-          <source src="/video/inMind.mp4" type="video/mp4" />
+          <source src="/INMiND/video/inMind.mp4" type="video/mp4" />
           <p>瀏覽器不支援。</p>
         </video>
         <div class="scroll-btn" @click="onScrollDownSectionTwo"></div>
